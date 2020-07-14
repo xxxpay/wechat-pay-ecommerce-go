@@ -3,8 +3,8 @@ package v3
 import (
 	"encoding/json"
 	"net/http"
-	"wechat-pay-ecommerce-sdk/core"
-	"wechat-pay-ecommerce-sdk/dto"
+	"github.com/xxxpay/wechat-pay-ecommerce-go/core"
+	"github.com/xxxpay/wechat-pay-ecommerce-go/dto"
 )
 
 func (c *payClient) Certificate() (*dto.CertificateResp, error) {

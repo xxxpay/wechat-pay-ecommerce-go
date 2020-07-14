@@ -10,8 +10,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"wechat-pay-ecommerce-sdk/core"
-	"wechat-pay-ecommerce-sdk/dto"
+	"github.com/xxxpay/wechat-pay-ecommerce-go/core"
+	"github.com/xxxpay/wechat-pay-ecommerce-go/dto"
 )
 
 type payClient struct {
